@@ -1,0 +1,66 @@
+.instruments {
+  background-color: #f9f9f9;
+  width: 1920px;
+  height: 733px;
+  text-align: center;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.section__title {
+  color: #000000;
+  font-family: "Proxima Nova";
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 125px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.goods__img {
+  width: 263px;
+  height: 210px;
+  background-color: #ffffff;
+  margin-bottom: 25px;
+}
+.goods__name {
+  color: #000000;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+.goods__price {
+  color: #000000;
+  font-family: "Proxima Nova";
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.goods__button {
+  padding: 23px 75px;
+}
+
+button {
+  border: 1px solid #23bac1;
+  background-color: #f9f9f9;
+  color: #23bac1;
+  font-family: "Proxima Nova";
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+button:focus {
+  outline: none;
+}
